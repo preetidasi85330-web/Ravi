@@ -1,0 +1,6 @@
+{
+  "name": "Secret Vault",
+  "description": "Private encrypted vault to hide and protect photos, videos, and files with password lock, PIN keypad, and biometric fingerprint security.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

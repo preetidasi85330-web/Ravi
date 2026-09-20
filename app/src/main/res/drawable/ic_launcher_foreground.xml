@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Vault Shield Outline -->
+    <path
+        android:pathData="M54,23 L79,33 C79,57 68,75 54,85 C40,75 29,57 29,33 Z"
+        android:fillColor="#1E293B"
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8" />
+
+    <!-- Inner Vault Door Rim -->
+    <path
+        android:pathData="M54,29 L74,37 C74,56 65,71 54,79 C43,71 34,56 34,37 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="29"
+                android:endX="54"
+                android:endY="79"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2DD4BF" />
+                <item android:offset="1.0" android:color="#0284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Lock Shackle -->
+    <path
+        android:pathData="M48,50 L48,44 C48,40.7 50.7,38 54,38 C57.3,38 60,40.7 60,44 L60,50"
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Center Lock Body -->
+    <path
+        android:pathData="M44,49 C44,47.5 45.5,46 47,46 L61,46 C62.5,46 64,47.5 64,49 L64,65 C64,66.5 62.5,68 61,68 L47,68 C45.5,68 44,66.5 44,65 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Keyhole / Fingerprint Core -->
+    <path
+        android:pathData="M54,52 A3,3 0 1 0 54,58 L52.5,63 L55.5,63 Z"
+        android:fillColor="#0F172A" />
+
+    <!-- Fingerprint Biometric Accent Arc -->
+    <path
+        android:pathData="M40,58 C38,64 42,70 48,72"
+        android:strokeWidth="1.8"
+        android:strokeColor="#F0FDFA"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M68,58 C70,64 66,70 60,72"
+        android:strokeWidth="1.8"
+        android:strokeColor="#F0FDFA"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>
